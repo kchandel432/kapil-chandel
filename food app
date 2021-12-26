@@ -1,0 +1,20 @@
+print("WELCOME TO RESTURANT")
+class admin:
+    admin=input('login')
+food_dict={"Tandorri chicken: price = 250rs :stock = 4 pices avaiable ","vegan burger: price = 460rs :stock = 5 pices avaiable","Truffle cake: price = 500rs : stock = 9 pices avaiable"}
+print(food_dict)
+
+class  user:
+    user= input('name:')
+    user= input('email id:')
+    user= input('adderss:')
+    user= input('phone number:')
+    user= input('password:')
+    print(user)
+food_dict = {"Tandoori Chicken": "4 pices" ' INR: 240',  "vegan burger": "1 pices" 'INR:,320'
+  "truffle cake" "500 gm" '[INR 900]'}
+print(food_dict)
+class oder:
+oder=input(1:'tandori chicken')
+oder=input(2:'vegan buger')
+oder=input(3:'truffel cake')
