@@ -1,0 +1,26 @@
+# FIBONCACCI SERIES
+
+n = int(input("enter a sum :"))
+a = 0
+b = n
+print(a,b,end = "  ")
+for i in range(2,n):
+    temp = a+b
+    a = b
+    b = temp
+    print(temp,end = " ")
+
+# FIBONACCI Nth NUM:
+n = int(input("enter a sum :"))
+if n<3:
+    print(n-1)
+else:
+    a = 2
+    b = 1
+for i in range(2,n):
+    sum = a + b
+    a = b
+    b = sum
+    print(sum)
+
+
